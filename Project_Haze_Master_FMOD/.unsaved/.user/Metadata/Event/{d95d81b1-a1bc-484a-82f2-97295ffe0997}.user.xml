@@ -5,7 +5,7 @@
             <value>1</value>
         </property>
         <relationship name="selectables">
-            <destination>{36f4ed8a-ecc7-4d3b-af00-3a15efb5411a}</destination>
+            <destination>{4b203e31-6f84-4321-b834-0bf2af221090}</destination>
         </relationship>
         <relationship name="uiLastParameterSelection">
             <destination>{dac16946-1984-4f61-849a-266f0b34a968}</destination>
@@ -25,6 +25,9 @@
     <object class="Timeline" id="{dac16946-1984-4f61-849a-266f0b34a968}">
         <property name="uiLastRulerScaleRatio">
             <value>0.00042452830188679245</value>
+        </property>
+        <property name="uiLastHorizontalScrollBarValue">
+            <value>320</value>
         </property>
     </object>
     <object class="EventMixerMaster" id="{8c03cb15-ae33-4338-9cd9-c5fb7a3a5d88}">
