@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{b3b0911c-051e-46e0-9d4d-bc20dd03aa64}">
+        <property name="assetPath">
+            <value>Jim/PickupAxe_ExtInt_Close_Jim.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.90656250000000005</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{dbb84ce5-7b9b-4d65-b5e7-3a5669e2fb0b}</destination>
+        </relationship>
+    </object>
+</objects>

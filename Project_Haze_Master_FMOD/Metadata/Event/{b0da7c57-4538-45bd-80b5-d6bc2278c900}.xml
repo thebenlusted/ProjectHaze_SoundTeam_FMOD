@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.01.10.00">
     <object class="Event" id="{b0da7c57-4538-45bd-80b5-d6bc2278c900}">
         <property name="name">
-            <value>FireAxe</value>
+            <value>play_Axe</value>
         </property>
         <property name="note">
             <value>Swing Axe (Hit nothing) 0.00-0.05
@@ -75,7 +75,6 @@ Swing Axe (Hit Other) 0.60-0.65
     <object class="GroupTrack" id="{883def57-d8af-4d90-b386-b4293e73de0f}">
         <relationship name="modules">
             <destination>{2d7f4b20-fe99-4107-88b0-6040cdf01a53}</destination>
-            <destination>{2cd76edc-d9bf-41c8-bb51-36d6333f69ad}</destination>
             <destination>{4ba0d336-e044-4f00-9efb-ad7e7176d815}</destination>
             <destination>{91fee227-70a6-4ef4-b1ff-8c900a8c666a}</destination>
         </relationship>
@@ -92,7 +91,6 @@ Swing Axe (Hit Other) 0.60-0.65
     <object class="ParameterProxy" id="{af202349-224c-4f62-b583-6632764f44d4}">
         <relationship name="modules">
             <destination>{2d7f4b20-fe99-4107-88b0-6040cdf01a53}</destination>
-            <destination>{2cd76edc-d9bf-41c8-bb51-36d6333f69ad}</destination>
             <destination>{4ba0d336-e044-4f00-9efb-ad7e7176d815}</destination>
             <destination>{91fee227-70a6-4ef4-b1ff-8c900a8c666a}</destination>
         </relationship>
@@ -135,35 +133,8 @@ Swing Axe (Hit Other) 0.60-0.65
             <destination>{5ca5a0e5-4549-43a9-8074-629ef7b9cb09}</destination>
         </relationship>
         <relationship name="sounds">
-            <destination>{c38b5d69-c1d6-4187-90ac-63212cbc4f2a}</destination>
-            <destination>{63632d32-117a-4fe7-b362-f46ff5a2c144}</destination>
-        </relationship>
-    </object>
-    <object class="SingleSound" id="{2cd76edc-d9bf-41c8-bb51-36d6333f69ad}">
-        <property name="start">
-            <value>0.10000000000000001</value>
-        </property>
-        <property name="length">
-            <value>0.050000000000000003</value>
-        </property>
-        <property name="color">
-            <value>Yellow</value>
-        </property>
-        <property name="name">
-            <value>Stuck Wood</value>
-        </property>
-        <property name="volume">
-            <value>1</value>
-        </property>
-        <property name="pitch">
-            <value>0.5</value>
-        </property>
-        <relationship name="modulators">
-            <destination>{4d6d2029-1676-4ef0-8f10-65c23e0da70e}</destination>
-            <destination>{42f903cc-a4c6-4b5f-8d13-c8653457e52a}</destination>
-        </relationship>
-        <relationship name="audioFile">
-            <destination>{6e8061fe-3c3c-4cc1-be43-d5bc1deff822}</destination>
+            <destination>{89e68b7e-b274-4f75-89d5-5ff91fc31c96}</destination>
+            <destination>{976fda54-3c20-408c-a2f5-8aa5aca70ed1}</destination>
         </relationship>
     </object>
     <object class="MultiSound" id="{4ba0d336-e044-4f00-9efb-ad7e7176d815}">
@@ -187,8 +158,9 @@ Swing Axe (Hit Other) 0.60-0.65
             <destination>{014f0714-3e84-48e4-bf73-1f3cc66af813}</destination>
         </relationship>
         <relationship name="sounds">
-            <destination>{6a0f4a01-bc48-44b5-9c36-8e1be58bec2e}</destination>
-            <destination>{c9b1a76d-1d33-4ad1-bbca-158d8d833f5b}</destination>
+            <destination>{b19bc67a-4199-4659-b4b0-ba4b5289b330}</destination>
+            <destination>{642b2b72-c253-40ac-83e9-2b5c0a8b1488}</destination>
+            <destination>{787db1ae-93b7-4e40-bd1e-0b9055840e5e}</destination>
         </relationship>
     </object>
     <object class="MultiSound" id="{91fee227-70a6-4ef4-b1ff-8c900a8c666a}">
@@ -212,8 +184,8 @@ Swing Axe (Hit Other) 0.60-0.65
             <destination>{7aac28d9-9cbf-4e66-882d-f9952f18aa79}</destination>
         </relationship>
         <relationship name="sounds">
-            <destination>{91c323c6-73f0-4ab7-b92c-57157db7b5e3}</destination>
-            <destination>{44711751-d855-4499-b5ff-92e9f1e5cc8b}</destination>
+            <destination>{e86e73b5-06cc-4957-87a0-84e5cb32d3cf}</destination>
+            <destination>{ffcc52da-a871-4144-803a-016f4fbdeef3}</destination>
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{3033df9d-80a7-4d2a-800f-8c503efa2213}">
@@ -272,31 +244,15 @@ Swing Axe (Hit Other) 0.60-0.65
             <value>2.39999986</value>
         </property>
     </object>
-    <object class="SingleSound" id="{c38b5d69-c1d6-4187-90ac-63212cbc4f2a}">
+    <object class="SingleSound" id="{89e68b7e-b274-4f75-89d5-5ff91fc31c96}">
         <relationship name="audioFile">
-            <destination>{115f49f8-e637-4fd0-bc70-ee0b2d6a1df8}</destination>
+            <destination>{1cdaa64a-eb67-4faf-bb2f-c8ff89a07c44}</destination>
         </relationship>
     </object>
-    <object class="SingleSound" id="{63632d32-117a-4fe7-b362-f46ff5a2c144}">
+    <object class="SingleSound" id="{976fda54-3c20-408c-a2f5-8aa5aca70ed1}">
         <relationship name="audioFile">
-            <destination>{49566134-95c4-4208-a426-b5c6f935ae55}</destination>
+            <destination>{b0d661ea-7950-434c-a180-2ad46ea0e0ec}</destination>
         </relationship>
-    </object>
-    <object class="RandomizerModulator" id="{4d6d2029-1676-4ef0-8f10-65c23e0da70e}">
-        <property name="nameOfPropertyBeingModulated">
-            <value>pitch</value>
-        </property>
-        <property name="amount">
-            <value>5</value>
-        </property>
-    </object>
-    <object class="RandomizerModulator" id="{42f903cc-a4c6-4b5f-8d13-c8653457e52a}">
-        <property name="nameOfPropertyBeingModulated">
-            <value>volume</value>
-        </property>
-        <property name="amount">
-            <value>3.60000014</value>
-        </property>
     </object>
     <object class="RandomizerModulator" id="{fa8a9a25-3034-4f18-8383-03724aee2256}">
         <property name="nameOfPropertyBeingModulated">
@@ -314,14 +270,19 @@ Swing Axe (Hit Other) 0.60-0.65
             <value>3.60000014</value>
         </property>
     </object>
-    <object class="SingleSound" id="{6a0f4a01-bc48-44b5-9c36-8e1be58bec2e}">
+    <object class="SingleSound" id="{b19bc67a-4199-4659-b4b0-ba4b5289b330}">
         <relationship name="audioFile">
-            <destination>{c025a975-4e5e-4e70-82ff-60f8927ab3d4}</destination>
+            <destination>{06f69c0c-f59f-46d4-ba96-66cb2274f20d}</destination>
         </relationship>
     </object>
-    <object class="SingleSound" id="{c9b1a76d-1d33-4ad1-bbca-158d8d833f5b}">
+    <object class="SingleSound" id="{642b2b72-c253-40ac-83e9-2b5c0a8b1488}">
         <relationship name="audioFile">
-            <destination>{0b94d59f-64c5-4192-904c-a5e608b9d63b}</destination>
+            <destination>{32f47dfc-bfa5-47d2-aaa8-375d3f57933d}</destination>
+        </relationship>
+    </object>
+    <object class="SingleSound" id="{787db1ae-93b7-4e40-bd1e-0b9055840e5e}">
+        <relationship name="audioFile">
+            <destination>{4695c9d7-1d83-4dd3-9a08-1a1d9531366f}</destination>
         </relationship>
     </object>
     <object class="RandomizerModulator" id="{b76a50ff-f5b7-48b6-b743-0c8dd5335baa}">
@@ -340,14 +301,14 @@ Swing Axe (Hit Other) 0.60-0.65
             <value>2.5</value>
         </property>
     </object>
-    <object class="SingleSound" id="{91c323c6-73f0-4ab7-b92c-57157db7b5e3}">
+    <object class="SingleSound" id="{e86e73b5-06cc-4957-87a0-84e5cb32d3cf}">
         <relationship name="audioFile">
-            <destination>{280d33d0-9928-40d9-a8d3-d6d3deeb92d7}</destination>
+            <destination>{8ae28435-7778-4fc6-9981-3fcb5ea671bf}</destination>
         </relationship>
     </object>
-    <object class="SingleSound" id="{44711751-d855-4499-b5ff-92e9f1e5cc8b}">
+    <object class="SingleSound" id="{ffcc52da-a871-4144-803a-016f4fbdeef3}">
         <relationship name="audioFile">
-            <destination>{d883428b-db98-4b4e-8624-9783f04bcd33}</destination>
+            <destination>{5b1f5f01-e8b6-41ae-8097-2e5f30432d04}</destination>
         </relationship>
     </object>
     <object class="MixerBusEffectChain" id="{b0a6a166-37d0-4c52-a6ea-fa3975706276}">
