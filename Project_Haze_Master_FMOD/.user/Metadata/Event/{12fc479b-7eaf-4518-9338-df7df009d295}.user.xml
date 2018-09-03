@@ -4,6 +4,9 @@
         <property name="uiMaxMarkerTracksVisible">
             <value>1</value>
         </property>
+        <relationship name="selectables">
+            <destination>{cf630753-0131-4052-a8aa-7e0617b8e766}</destination>
+        </relationship>
         <relationship name="uiLastParameterSelection">
             <destination>{270f277d-2fe4-4dc7-8c2f-a6a1fe179d8a}</destination>
         </relationship>
@@ -68,9 +71,8 @@
     <object class="SingleSound" id="{c39a76be-d22d-432c-bbe4-99c039efa272}"/>
     <object class="MixerBusEffectChain" id="{85413641-f77c-4e35-b620-5b1eec9f96e1}"/>
     <object class="MixerBusPanner" id="{3e19807b-630e-49a9-a46b-f7a0a9edd452}"/>
-    <object class="LimiterEffect" id="{4bab4876-a235-4b22-a8b0-e8c0fc485a1e}"/>
     <object class="MixerBusFader" id="{0bdff22d-2f0a-4354-927a-663962f5b41e}"/>
-    <object class="SpatialiserEffect" id="{db75b5d8-3837-430e-a2e2-290bdcd2f800}"/>
+    <object class="LimiterEffect" id="{4bab4876-a235-4b22-a8b0-e8c0fc485a1e}"/>
     <object class="LoudnessMeter" id="{9d366cb7-e669-4b78-ae1e-1fdc874a5865}"/>
     <object class="MixerBusFader" id="{3b26159c-47fa-4ce9-ad2a-45317fa9c99a}"/>
     <object class="ThreeEQEffect" id="{c3f7ee8e-83bf-4a91-835e-635929336d03}"/>

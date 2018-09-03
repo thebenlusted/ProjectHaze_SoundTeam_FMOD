@@ -5,7 +5,7 @@
             <value>play_WalkingConcrete</value>
         </property>
         <property name="outputFormat">
-            <value>2</value>
+            <value>1</value>
         </property>
         <relationship name="folder">
             <destination>{f81ad469-5520-4c3f-99f4-2deff97af566}</destination>
@@ -82,9 +82,6 @@
         </relationship>
     </object>
     <object class="EventMixerMaster" id="{3ea7f6e3-b7ce-465e-b69a-95215a3ec42e}">
-        <property name="volume">
-            <value>3</value>
-        </property>
         <relationship name="effectChain">
             <destination>{97fad932-55b0-4032-9a21-87e056d36a24}</destination>
         </relationship>
@@ -188,9 +185,8 @@
     </object>
     <object class="MixerBusEffectChain" id="{97fad932-55b0-4032-9a21-87e056d36a24}">
         <relationship name="effects">
-            <destination>{69be9c88-6ed7-4a7b-a67c-748a0d507bd6}</destination>
             <destination>{96fd98b3-65f6-47ac-887e-ee02920d0013}</destination>
-            <destination>{38ed8bae-cf8b-4835-b6ca-2b7cade769cb}</destination>
+            <destination>{69be9c88-6ed7-4a7b-a67c-748a0d507bd6}</destination>
             <destination>{85191a96-40ba-4368-90ea-2a43d26704ea}</destination>
         </relationship>
     </object>
@@ -302,15 +298,10 @@
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{021583df-57a7-4a6e-99fa-c32168496356}"/>
+    <object class="MixerBusFader" id="{96fd98b3-65f6-47ac-887e-ee02920d0013}"/>
     <object class="LimiterEffect" id="{69be9c88-6ed7-4a7b-a67c-748a0d507bd6}">
         <property name="ceiling">
-            <value>-1.99999988</value>
-        </property>
-    </object>
-    <object class="MixerBusFader" id="{96fd98b3-65f6-47ac-887e-ee02920d0013}"/>
-    <object class="SpatialiserEffect" id="{38ed8bae-cf8b-4835-b6ca-2b7cade769cb}">
-        <property name="soundSize">
-            <value>70</value>
+            <value>-2.89999986</value>
         </property>
     </object>
     <object class="LoudnessMeter" id="{85191a96-40ba-4368-90ea-2a43d26704ea}"/>

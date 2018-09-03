@@ -5,7 +5,7 @@
             <value>play_WalkingGravel</value>
         </property>
         <property name="outputFormat">
-            <value>2</value>
+            <value>1</value>
         </property>
         <relationship name="folder">
             <destination>{f81ad469-5520-4c3f-99f4-2deff97af566}</destination>
@@ -82,6 +82,9 @@
         </relationship>
     </object>
     <object class="EventMixerMaster" id="{8c03cb15-ae33-4338-9cd9-c5fb7a3a5d88}">
+        <property name="volume">
+            <value>2.5</value>
+        </property>
         <relationship name="effectChain">
             <destination>{d39e4cea-879b-4b21-98f1-c3aa9cfab95d}</destination>
         </relationship>
@@ -186,9 +189,8 @@
     </object>
     <object class="MixerBusEffectChain" id="{d39e4cea-879b-4b21-98f1-c3aa9cfab95d}">
         <relationship name="effects">
-            <destination>{1ea88401-e3df-496f-8d97-1ee56a4cce2e}</destination>
             <destination>{13e56f26-0860-4096-a1dc-222588b28986}</destination>
-            <destination>{e2babe1f-927f-456c-b1aa-232f108d0c49}</destination>
+            <destination>{1ea88401-e3df-496f-8d97-1ee56a4cce2e}</destination>
             <destination>{cb9d280e-3e81-414d-8ffc-737de5ef5312}</destination>
         </relationship>
     </object>
@@ -296,15 +298,10 @@
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{0064ac69-9781-42f5-b886-fcb618346530}"/>
+    <object class="MixerBusFader" id="{13e56f26-0860-4096-a1dc-222588b28986}"/>
     <object class="LimiterEffect" id="{1ea88401-e3df-496f-8d97-1ee56a4cce2e}">
         <property name="ceiling">
-            <value>-1.99999988</value>
-        </property>
-    </object>
-    <object class="MixerBusFader" id="{13e56f26-0860-4096-a1dc-222588b28986}"/>
-    <object class="SpatialiserEffect" id="{e2babe1f-927f-456c-b1aa-232f108d0c49}">
-        <property name="soundSize">
-            <value>70</value>
+            <value>-2.99999976</value>
         </property>
     </object>
     <object class="LoudnessMeter" id="{cb9d280e-3e81-414d-8ffc-737de5ef5312}"/>

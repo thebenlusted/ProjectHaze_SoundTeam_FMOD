@@ -5,7 +5,7 @@
             <value>play_RunningWoodFloorboards</value>
         </property>
         <property name="outputFormat">
-            <value>2</value>
+            <value>1</value>
         </property>
         <relationship name="folder">
             <destination>{f81ad469-5520-4c3f-99f4-2deff97af566}</destination>
@@ -92,9 +92,6 @@
         </relationship>
     </object>
     <object class="EventMixerMaster" id="{fd4651dc-a717-46e1-98cb-2a9dfd898b64}">
-        <property name="volume">
-            <value>6.5</value>
-        </property>
         <relationship name="effectChain">
             <destination>{ca10c788-51b5-4ed7-9df1-8983ffefe1ab}</destination>
         </relationship>
@@ -247,9 +244,8 @@
     </object>
     <object class="MixerBusEffectChain" id="{ca10c788-51b5-4ed7-9df1-8983ffefe1ab}">
         <relationship name="effects">
-            <destination>{4bab4876-a235-4b22-a8b0-e8c0fc485a1e}</destination>
             <destination>{0bdff22d-2f0a-4354-927a-663962f5b41e}</destination>
-            <destination>{db75b5d8-3837-430e-a2e2-290bdcd2f800}</destination>
+            <destination>{4bab4876-a235-4b22-a8b0-e8c0fc485a1e}</destination>
             <destination>{9d366cb7-e669-4b78-ae1e-1fdc874a5865}</destination>
         </relationship>
     </object>
@@ -419,14 +415,10 @@
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{3e19807b-630e-49a9-a46b-f7a0a9edd452}"/>
-    <object class="LimiterEffect" id="{4bab4876-a235-4b22-a8b0-e8c0fc485a1e}"/>
     <object class="MixerBusFader" id="{0bdff22d-2f0a-4354-927a-663962f5b41e}"/>
-    <object class="SpatialiserEffect" id="{db75b5d8-3837-430e-a2e2-290bdcd2f800}">
-        <property name="soundSize">
-            <value>10000</value>
-        </property>
-        <property name="minimumExtent">
-            <value>360</value>
+    <object class="LimiterEffect" id="{4bab4876-a235-4b22-a8b0-e8c0fc485a1e}">
+        <property name="ceiling">
+            <value>-2.89999986</value>
         </property>
     </object>
     <object class="LoudnessMeter" id="{9d366cb7-e669-4b78-ae1e-1fdc874a5865}"/>

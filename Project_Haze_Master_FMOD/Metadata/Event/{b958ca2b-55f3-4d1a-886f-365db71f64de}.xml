@@ -5,7 +5,7 @@
             <value>play_PickupPipe</value>
         </property>
         <property name="outputFormat">
-            <value>2</value>
+            <value>1</value>
         </property>
         <relationship name="folder">
             <destination>{70745f53-af9a-4733-b7bd-acf218f24191}</destination>
@@ -165,7 +165,6 @@
     <object class="MixerBusEffectChain" id="{2529dacb-9f3c-4ed8-b492-35b1b3eb0ad4}">
         <relationship name="effects">
             <destination>{07b367b6-8a78-453a-9320-79f2c0737ddd}</destination>
-            <destination>{93c861cf-abee-4087-97db-68ad7215376b}</destination>
             <destination>{c34d1045-fe9b-4f8c-a0da-e44255975204}</destination>
         </relationship>
     </object>
@@ -236,13 +235,12 @@
     </object>
     <object class="MixerBusPanner" id="{0f7d20f4-c907-4247-a87c-e1f342ed1f68}"/>
     <object class="MixerBusFader" id="{07b367b6-8a78-453a-9320-79f2c0737ddd}"/>
-    <object class="SpatialiserEffect" id="{93c861cf-abee-4087-97db-68ad7215376b}"/>
     <object class="LimiterEffect" id="{c34d1045-fe9b-4f8c-a0da-e44255975204}">
         <property name="ceiling">
             <value>-2.99999976</value>
         </property>
         <property name="release">
-            <value>12</value>
+            <value>38</value>
         </property>
     </object>
     <object class="MixerBusFader" id="{edd78c68-22fe-4687-9ec0-0cc9bf9a63b6}"/>

@@ -5,7 +5,7 @@
             <value>1</value>
         </property>
         <relationship name="selectables">
-            <destination>{d58a4590-c5d4-4f4c-a969-7544dac8ea9c}</destination>
+            <destination>{b5a5c48c-ca46-49d4-8bcf-e817b79326bb}</destination>
         </relationship>
         <relationship name="uiLastParameterSelection">
             <destination>{7e24e56a-bc5c-4343-b956-dfc716597e20}</destination>
@@ -90,9 +90,8 @@
     <object class="SingleSound" id="{b2a02219-bb6e-42e6-9721-50d2acf58e01}"/>
     <object class="MixerBusEffectChain" id="{e17891a8-d7e0-4dd2-a56c-b0c2dca6c76e}"/>
     <object class="MixerBusPanner" id="{0ec9d635-8b65-4ae8-815a-c0d2ede80cbc}"/>
-    <object class="LimiterEffect" id="{f42990d0-ebaf-4b2f-917f-3cae906d152b}"/>
     <object class="MixerBusFader" id="{5f7174ea-d8aa-4b50-884c-3a995758d3ec}"/>
-    <object class="SpatialiserEffect" id="{0f5393b3-329a-4f42-8c96-721a36e86fd1}"/>
+    <object class="LimiterEffect" id="{f42990d0-ebaf-4b2f-917f-3cae906d152b}"/>
     <object class="LoudnessMeter" id="{a0dd3fa6-8ac2-4133-89fd-c49e5b626c53}"/>
     <object class="MixerBusFader" id="{8a6e7e6f-9d69-4d20-acf3-1c8012a19b23}"/>
     <object class="ThreeEQEffect" id="{46de5860-9623-4cd1-8d6d-ebf356bd0fa3}"/>

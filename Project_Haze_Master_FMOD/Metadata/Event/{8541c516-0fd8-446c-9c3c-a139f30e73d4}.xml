@@ -5,7 +5,7 @@
             <value>play_RunningGrass</value>
         </property>
         <property name="outputFormat">
-            <value>2</value>
+            <value>1</value>
         </property>
         <relationship name="folder">
             <destination>{f81ad469-5520-4c3f-99f4-2deff97af566}</destination>
@@ -83,7 +83,7 @@
     </object>
     <object class="EventMixerMaster" id="{9a153717-3bb6-49cc-8da4-0a7a4bef7665}">
         <property name="volume">
-            <value>6</value>
+            <value>1</value>
         </property>
         <relationship name="effectChain">
             <destination>{0c00f983-d433-4ed1-ab6f-f8b38afc05e7}</destination>
@@ -192,8 +192,6 @@
         <relationship name="effects">
             <destination>{2b0754bd-2e83-4d1b-8394-6fe9d1c5643c}</destination>
             <destination>{4216da73-9a79-4c2c-a858-8e257d4c31ca}</destination>
-            <destination>{c6c97aa1-a7cb-4e4e-9729-125c0224a053}</destination>
-            <destination>{4905b791-2daa-445f-a994-553642318eda}</destination>
             <destination>{e0473d7d-ee10-48e3-b1fe-921d095b5836}</destination>
         </relationship>
     </object>
@@ -308,30 +306,12 @@
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{b4ea0050-fdbe-41b0-aa3e-ce0b6887fa35}"/>
-    <object class="LimiterEffect" id="{2b0754bd-2e83-4d1b-8394-6fe9d1c5643c}"/>
+    <object class="LimiterEffect" id="{2b0754bd-2e83-4d1b-8394-6fe9d1c5643c}">
+        <property name="ceiling">
+            <value>-3.0999999</value>
+        </property>
+    </object>
     <object class="MixerBusFader" id="{4216da73-9a79-4c2c-a858-8e257d4c31ca}"/>
-    <object class="SpatialiserEffect" id="{c6c97aa1-a7cb-4e4e-9729-125c0224a053}">
-        <property name="soundSize">
-            <value>10000</value>
-        </property>
-        <property name="minimumExtent">
-            <value>360</value>
-        </property>
-    </object>
-    <object class="CompressorEffect" id="{4905b791-2daa-445f-a994-553642318eda}">
-        <property name="threshold">
-            <value>-7</value>
-        </property>
-        <property name="ratio">
-            <value>3.79999971</value>
-        </property>
-        <property name="attackTime">
-            <value>1.60000002</value>
-        </property>
-        <property name="releaseTime">
-            <value>100</value>
-        </property>
-    </object>
     <object class="LoudnessMeter" id="{e0473d7d-ee10-48e3-b1fe-921d095b5836}"/>
     <object class="AutomationPoint" id="{7ba588c6-87ce-4a66-add9-6b271a5f8784}">
         <property name="position">

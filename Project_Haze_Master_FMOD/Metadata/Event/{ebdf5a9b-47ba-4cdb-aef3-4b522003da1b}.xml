@@ -5,7 +5,7 @@
             <value>play_WalkingWoodFloorboards</value>
         </property>
         <property name="outputFormat">
-            <value>2</value>
+            <value>1</value>
         </property>
         <relationship name="folder">
             <destination>{f81ad469-5520-4c3f-99f4-2deff97af566}</destination>
@@ -266,9 +266,8 @@
     </object>
     <object class="MixerBusEffectChain" id="{cf26522f-bfdc-440e-ba0c-e7a85b587be7}">
         <relationship name="effects">
-            <destination>{f42990d0-ebaf-4b2f-917f-3cae906d152b}</destination>
             <destination>{5f7174ea-d8aa-4b50-884c-3a995758d3ec}</destination>
-            <destination>{0f5393b3-329a-4f42-8c96-721a36e86fd1}</destination>
+            <destination>{f42990d0-ebaf-4b2f-917f-3cae906d152b}</destination>
             <destination>{a0dd3fa6-8ac2-4133-89fd-c49e5b626c53}</destination>
         </relationship>
     </object>
@@ -439,18 +438,10 @@
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{0ec9d635-8b65-4ae8-815a-c0d2ede80cbc}"/>
+    <object class="MixerBusFader" id="{5f7174ea-d8aa-4b50-884c-3a995758d3ec}"/>
     <object class="LimiterEffect" id="{f42990d0-ebaf-4b2f-917f-3cae906d152b}">
         <property name="ceiling">
-            <value>-1.99999988</value>
-        </property>
-    </object>
-    <object class="MixerBusFader" id="{5f7174ea-d8aa-4b50-884c-3a995758d3ec}"/>
-    <object class="SpatialiserEffect" id="{0f5393b3-329a-4f42-8c96-721a36e86fd1}">
-        <property name="soundSize">
-            <value>10000</value>
-        </property>
-        <property name="minimumExtent">
-            <value>360</value>
+            <value>-2.79999971</value>
         </property>
     </object>
     <object class="LoudnessMeter" id="{a0dd3fa6-8ac2-4133-89fd-c49e5b626c53}"/>

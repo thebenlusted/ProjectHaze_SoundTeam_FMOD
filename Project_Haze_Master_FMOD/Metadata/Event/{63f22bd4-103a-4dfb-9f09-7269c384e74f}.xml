@@ -5,7 +5,7 @@
             <value>play_RunningConcrete</value>
         </property>
         <property name="outputFormat">
-            <value>2</value>
+            <value>1</value>
         </property>
         <relationship name="folder">
             <destination>{f81ad469-5520-4c3f-99f4-2deff97af566}</destination>
@@ -83,7 +83,7 @@
     </object>
     <object class="EventMixerMaster" id="{1169ab52-7603-4426-aca2-1a8b6dc2804c}">
         <property name="volume">
-            <value>10</value>
+            <value>5</value>
         </property>
         <relationship name="effectChain">
             <destination>{a548f9a2-9b31-41b7-8856-e20f70dad683}</destination>
@@ -189,7 +189,6 @@
     <object class="MixerBusEffectChain" id="{a548f9a2-9b31-41b7-8856-e20f70dad683}">
         <relationship name="effects">
             <destination>{3b215c70-2063-4291-be71-aad4aa53bfc2}</destination>
-            <destination>{6554d496-1fd1-4851-afd3-80d8c36fb30c}</destination>
             <destination>{9f25b9c1-7806-4675-a29e-2a8bc161f609}</destination>
             <destination>{00ccbdc3-6e3f-456e-a313-bb78cad6f7a6}</destination>
         </relationship>
@@ -315,17 +314,16 @@
     </object>
     <object class="MixerBusPanner" id="{a855ee1b-d0cd-42ed-a0fa-958f0527e9d7}"/>
     <object class="MixerBusFader" id="{3b215c70-2063-4291-be71-aad4aa53bfc2}"/>
-    <object class="SpatialiserEffect" id="{6554d496-1fd1-4851-afd3-80d8c36fb30c}">
-        <property name="soundSize">
-            <value>70</value>
-        </property>
-    </object>
     <object class="LoudnessMeter" id="{9f25b9c1-7806-4675-a29e-2a8bc161f609}">
         <property name="loudnessTarget">
             <value>-18</value>
         </property>
     </object>
-    <object class="LimiterEffect" id="{00ccbdc3-6e3f-456e-a313-bb78cad6f7a6}"/>
+    <object class="LimiterEffect" id="{00ccbdc3-6e3f-456e-a313-bb78cad6f7a6}">
+        <property name="ceiling">
+            <value>-3.0999999</value>
+        </property>
+    </object>
     <object class="MixerBusFader" id="{126378b3-008f-41bd-9211-3f8f9ead3214}"/>
     <object class="ThreeEQEffect" id="{87543342-93f7-42cd-a97d-ed83cfd897f8}">
         <property name="lowGain">

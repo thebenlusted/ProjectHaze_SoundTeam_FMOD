@@ -5,7 +5,7 @@
             <value>play_RunningGravel</value>
         </property>
         <property name="outputFormat">
-            <value>2</value>
+            <value>1</value>
         </property>
         <relationship name="folder">
             <destination>{f81ad469-5520-4c3f-99f4-2deff97af566}</destination>
@@ -83,7 +83,7 @@
     </object>
     <object class="EventMixerMaster" id="{8ad657fa-f58a-4ee5-b9ce-d7ff5ae7a458}">
         <property name="volume">
-            <value>1.5</value>
+            <value>-3.5</value>
         </property>
         <relationship name="effectChain">
             <destination>{b01e6f13-7370-4456-9000-367a989eb335}</destination>
@@ -103,7 +103,7 @@
     <object class="MixerBusPanner" id="{dd7b49fe-5ef0-48db-b271-b59f0de64668}"/>
     <object class="MultiSound" id="{1fff9bc9-4647-40de-b746-8dab1c9bbc71}">
         <property name="length">
-            <value>0.27000000000000002</value>
+            <value>0.32000000000000001</value>
         </property>
         <property name="pitch">
             <value>-1</value>
@@ -186,11 +186,8 @@
     </object>
     <object class="MixerBusEffectChain" id="{b01e6f13-7370-4456-9000-367a989eb335}">
         <relationship name="effects">
-            <destination>{25c7f007-d108-4bb0-8165-d62b108b317f}</destination>
             <destination>{a21f285a-2354-4160-bee3-66aa2f6c212d}</destination>
-            <destination>{1dd4c417-c8c1-47fb-a238-dc3740f24071}</destination>
-            <destination>{7f217fb3-a6de-431c-a5ac-a76f553d80c1}</destination>
-            <destination>{57cd6e5b-8d00-47e4-a544-14ce612bac07}</destination>
+            <destination>{25c7f007-d108-4bb0-8165-d62b108b317f}</destination>
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{4a703e9d-e726-496c-9fa0-eb26a287adef}"/>
@@ -309,26 +306,10 @@
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{b91d02f8-fbc2-4a86-a509-bbb714abaa3f}"/>
-    <object class="LimiterEffect" id="{25c7f007-d108-4bb0-8165-d62b108b317f}"/>
     <object class="MixerBusFader" id="{a21f285a-2354-4160-bee3-66aa2f6c212d}"/>
-    <object class="SpatialiserEffect" id="{1dd4c417-c8c1-47fb-a238-dc3740f24071}">
-        <property name="soundSize">
-            <value>70</value>
-        </property>
-    </object>
-    <object class="LoudnessMeter" id="{7f217fb3-a6de-431c-a5ac-a76f553d80c1}"/>
-    <object class="CompressorEffect" id="{57cd6e5b-8d00-47e4-a544-14ce612bac07}">
-        <property name="threshold">
-            <value>-7.5</value>
-        </property>
-        <property name="ratio">
-            <value>3.39999986</value>
-        </property>
-        <property name="attackTime">
-            <value>2.79999995</value>
-        </property>
-        <property name="releaseTime">
-            <value>400</value>
+    <object class="LimiterEffect" id="{25c7f007-d108-4bb0-8165-d62b108b317f}">
+        <property name="ceiling">
+            <value>-2.89999986</value>
         </property>
     </object>
     <object class="MixerBusFader" id="{df38583b-868c-44fc-9696-f7425a485d95}"/>

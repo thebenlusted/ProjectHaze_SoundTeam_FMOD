@@ -51,7 +51,6 @@
     <object class="MixerBusEffectChain" id="{171defaa-6c74-40d9-98ab-b6b43dce637c}"/>
     <object class="MixerBusPanner" id="{b9809d36-73c6-45ce-9201-d7b68ee0af7c}"/>
     <object class="MixerBusFader" id="{15ec3246-b555-4187-8ee7-5b77b09d9b76}"/>
-    <object class="SpatialiserEffect" id="{6e1dabb6-e061-4459-9d6f-97798a14629f}"/>
     <object class="LimiterEffect" id="{2f69354a-cc42-4788-99f5-0c990a0a14ac}"/>
     <object class="MixerBusFader" id="{2592612b-dd8a-4ac4-8ae8-168d97276fa2}"/>
     <object class="MixerBusFader" id="{c9f77f11-bb12-4132-82ee-9f3d07e554a1}"/>

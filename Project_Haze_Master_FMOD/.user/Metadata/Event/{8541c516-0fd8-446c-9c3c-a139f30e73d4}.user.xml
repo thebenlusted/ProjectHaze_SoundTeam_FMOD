@@ -5,7 +5,7 @@
             <value>1</value>
         </property>
         <relationship name="selectables">
-            <destination>{beb67ad7-f17c-4680-adaa-41413a54019c}</destination>
+            <destination>{ee431082-44c8-46ec-b33c-dec23d076c0b}</destination>
         </relationship>
         <relationship name="uiLastParameterSelection">
             <destination>{f079786f-1028-4288-bc91-8d8886b12c5d}</destination>
@@ -61,8 +61,6 @@
     <object class="MixerBusPanner" id="{b4ea0050-fdbe-41b0-aa3e-ce0b6887fa35}"/>
     <object class="LimiterEffect" id="{2b0754bd-2e83-4d1b-8394-6fe9d1c5643c}"/>
     <object class="MixerBusFader" id="{4216da73-9a79-4c2c-a858-8e257d4c31ca}"/>
-    <object class="SpatialiserEffect" id="{c6c97aa1-a7cb-4e4e-9729-125c0224a053}"/>
-    <object class="CompressorEffect" id="{4905b791-2daa-445f-a994-553642318eda}"/>
     <object class="LoudnessMeter" id="{e0473d7d-ee10-48e3-b1fe-921d095b5836}"/>
     <object class="MixerBusFader" id="{dfd87bb9-6b76-4a04-8068-43db119d68e2}"/>
     <object class="MultibandEqEffect" id="{75921d75-7537-4ccf-9800-5c428a9cc68d}"/>

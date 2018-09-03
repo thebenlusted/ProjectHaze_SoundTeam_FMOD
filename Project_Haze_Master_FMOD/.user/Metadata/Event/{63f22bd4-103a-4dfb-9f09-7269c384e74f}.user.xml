@@ -4,6 +4,9 @@
         <property name="uiMaxMarkerTracksVisible">
             <value>1</value>
         </property>
+        <relationship name="selectables">
+            <destination>{586512f6-b615-437a-8972-49df781f2803}</destination>
+        </relationship>
         <relationship name="uiLastParameterSelection">
             <destination>{5a66b483-e3b5-4582-a3fb-a826076965d5}</destination>
         </relationship>
@@ -63,7 +66,6 @@
     <object class="MixerBusEffectChain" id="{ed5814d4-7744-4b34-a636-fd629dccef3d}"/>
     <object class="MixerBusPanner" id="{a855ee1b-d0cd-42ed-a0fa-958f0527e9d7}"/>
     <object class="MixerBusFader" id="{3b215c70-2063-4291-be71-aad4aa53bfc2}"/>
-    <object class="SpatialiserEffect" id="{6554d496-1fd1-4851-afd3-80d8c36fb30c}"/>
     <object class="LoudnessMeter" id="{9f25b9c1-7806-4675-a29e-2a8bc161f609}"/>
     <object class="LimiterEffect" id="{00ccbdc3-6e3f-456e-a313-bb78cad6f7a6}"/>
     <object class="MixerBusFader" id="{126378b3-008f-41bd-9211-3f8f9ead3214}"/>

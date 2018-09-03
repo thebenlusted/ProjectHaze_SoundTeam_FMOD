@@ -5,7 +5,7 @@
             <value>1</value>
         </property>
         <relationship name="selectables">
-            <destination>{9f716037-770f-4408-bb9e-d579cee87f46}</destination>
+            <destination>{1fff9bc9-4647-40de-b746-8dab1c9bbc71}</destination>
         </relationship>
         <relationship name="uiLastParameterSelection">
             <destination>{95ce0ba8-5247-4e4a-b0ac-3b50125fd7a4}</destination>
@@ -24,6 +24,9 @@
     <object class="Timeline" id="{95ce0ba8-5247-4e4a-b0ac-3b50125fd7a4}">
         <property name="uiLastRulerScaleRatio">
             <value>0.00024528301886792453</value>
+        </property>
+        <property name="uiLastHorizontalScrollBarValue">
+            <value>255</value>
         </property>
     </object>
     <object class="EventMixerMaster" id="{8ad657fa-f58a-4ee5-b9ce-d7ff5ae7a458}">
@@ -61,11 +64,8 @@
     <object class="SingleSound" id="{fc7b031b-3ec9-4276-a8e0-a1db3c6fd50a}"/>
     <object class="MixerBusEffectChain" id="{47973a70-97a0-490b-ba50-2da6c9590fb8}"/>
     <object class="MixerBusPanner" id="{b91d02f8-fbc2-4a86-a509-bbb714abaa3f}"/>
-    <object class="LimiterEffect" id="{25c7f007-d108-4bb0-8165-d62b108b317f}"/>
     <object class="MixerBusFader" id="{a21f285a-2354-4160-bee3-66aa2f6c212d}"/>
-    <object class="SpatialiserEffect" id="{1dd4c417-c8c1-47fb-a238-dc3740f24071}"/>
-    <object class="LoudnessMeter" id="{7f217fb3-a6de-431c-a5ac-a76f553d80c1}"/>
-    <object class="CompressorEffect" id="{57cd6e5b-8d00-47e4-a544-14ce612bac07}"/>
+    <object class="LimiterEffect" id="{25c7f007-d108-4bb0-8165-d62b108b317f}"/>
     <object class="MixerBusFader" id="{df38583b-868c-44fc-9696-f7425a485d95}"/>
     <object class="ThreeEQEffect" id="{18d076f9-66cb-4008-b3d1-2101252c178b}"/>
     <object class="MixerBusFader" id="{b478056d-594e-4c55-9098-5519ac348c20}"/>
