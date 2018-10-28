@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{fd2df48b-1981-495c-9f7d-8001204e1346}">
+        <property name="name">
+            <value>XRay_Machine_Startup_Time</value>
+        </property>
+        <relationship name="folder">
+            <destination>{83220dbf-90e3-4510-9e9c-c43ab9dc805c}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{01ee9431-dc0b-417d-b029-e50edf92e56c}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{01ee9431-dc0b-417d-b029-e50edf92e56c}">
+        <property name="maximum">
+            <value>4</value>
+        </property>
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>

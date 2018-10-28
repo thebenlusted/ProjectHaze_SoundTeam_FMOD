@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="EventFolder" id="{2c4ab28f-e42c-448a-bac7-124bcd5dd204}">
+        <property name="name">
+            <value>XRay_Machine</value>
+        </property>
+        <relationship name="folder">
+            <destination>{e27978ca-2e26-42d2-b5f1-049730edad2d}</destination>
+        </relationship>
+    </object>
+</objects>

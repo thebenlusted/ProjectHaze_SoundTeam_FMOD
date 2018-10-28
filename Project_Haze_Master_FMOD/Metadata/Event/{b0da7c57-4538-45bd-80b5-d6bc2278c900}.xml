@@ -290,7 +290,7 @@ Swing Axe (Hit Other) 0.60-0.65
             <value>pitch</value>
         </property>
         <property name="amount">
-            <value>6.5</value>
+            <value>4</value>
         </property>
     </object>
     <object class="RandomizerModulator" id="{7aac28d9-9cbf-4e66-882d-f9952f18aa79}">

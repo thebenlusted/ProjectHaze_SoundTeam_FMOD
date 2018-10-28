@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{d9dd9eeb-ee48-4bc4-b2d4-09e30383295c}">
+        <property name="assetPath">
+            <value>Jim/Loopable Xray Sound.wav</value>
+        </property>
+        <property name="isStreaming">
+            <value>true</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>35.236938775510204</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{dbb84ce5-7b9b-4d65-b5e7-3a5669e2fb0b}</destination>
+        </relationship>
+    </object>
+</objects>
